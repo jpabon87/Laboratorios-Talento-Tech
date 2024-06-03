@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="titulo-b">Biblioteca Digital Rural</h1>
+        <p>La biblioteca digital es un proyecto destinado a brindar información practica a estudiantes de zonas rurales
+            que
+            no tiene acceso a una bilbioteca cercana</p>
+        <p>En este sitio prodras econtrar libros digitalizados, juegos y imagenes historicas d enuestra historia</p>
+    </div>
+
+    <p><strong>Si desea inscribirse complete el siguente formulario, una vez finalizado podrás acceder a 16 mil
+            materiales digitalizados</strong></p>
+
+    <div class="contenedor-b">
+        <h3>Formulario de registro</h3>
+        <p>Ingrese los datos requeridos para crear su cuenta</p>
+        <form action="">
+
+            <label for="fname">Nombre</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Escriba su nombre"><br><br>
+            <label for="fname">Apellido</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Escriba su apellido"><br><br>
+
+            <label for="Cedula">Número de documento de identidad</label>
+            <input type="number" id="Cedula" name="Cedula" required><br>
+
+            <p>Tipo de indentificación</p>
+            <input type="radio" id="cedula" name="fav_language" value="Cedula">
+            <label for="cedula">C.C.</label><br>
+            <input type="radio" id="tarjeta" name="fav_language" value="Tarjeta">
+            <label for="tarjeta">T.I.</label><br>
+            <input type="radio" id="extranjero" name="fav_language" value="Extranjero">
+            <label for="extranjero">C.E.</label> <br><br>
+
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" pattern=".+@example\.com" size="30" required><br><br>
+
+            <label for="start">Fecha de nacimiento</label>
+            <input type="date" id="start" name="trip-start" value="1980-01-01" min="1980-01-01" max="2024-01-31">
+
+
+            <p>Generos literarios que te gustaria leer</p>
+            <input type="checkbox" id="novela" name="vehicle1" value="Novela">
+            <label for="vehicle1"> Novela</label><br>
+            <input type="checkbox" id="cuento" name="vehicle2" value="Cuento">
+            <label for="vehicle2"> Cuento</label><br>
+            <input type="checkbox" id="anime" name="vehicle3" value="Anime">
+            <label for="vehicle3"> Fantasia</label> <br>
+            <input type="checkbox" id="novela" name="vehicle1" value="Novela">
+            <label for="vehicle1"> Aventura</label><br>
+            <input type="checkbox" id="cuento" name="vehicle2" value="Cuento">
+            <label for="vehicle2"> Suspenso</label><br>
+            <input type="checkbox" id="anime" name="vehicle3" value="Anime">
+            <label for="vehicle3"> Distopía</label><br>
+            <input type="checkbox" id="anime" name="vehicle3" value="Anime">
+            <label for="vehicle3"> Ciencia ficción</label><br><br>
+
+            <hr>
+            <input type="checkbox" id="anime" name="vehicle3" value="Anime">
+            <label for="vehicle3">Autorizo el uso de datos personales</label><br><br>
+
+            <textarea name="mensaje" id="menaje"
+                cols="100" rows="5">En cumplimiento de la ley 1581 de 2012 y el Decreto 1377 de 2013, que desarrollan el principio constitucional que tienen todas las personas a conocer, actualizar y rectificar todo tipo de información recogida o, que haya sido objeto de tratamiento de datos personales en bancos o bases de datos y, en general en archivos de entidades públicas y/o privadas.</textarea><br><br>
+
+            <input type="button" value="Crear registro">
+           
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
