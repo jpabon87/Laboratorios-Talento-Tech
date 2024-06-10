@@ -1,0 +1,21 @@
+body{
+    background: #a2d2ff;
+    color: #003566;
+    text-align: center;
+}
+
+.container-s{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    cursor: pointer;  
+}
+.container-x{
+    background-color: #003566;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
